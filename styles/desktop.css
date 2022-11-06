@@ -34,28 +34,24 @@
 
 	/* Section B */
 	.section-b {
-		position: relative;
-		display: grid;
-		min-width: 80%;
-		width: 80%;
-		margin: auto;
-		grid-template-columns: repeat(3, 1fr);
-		justify-content: center;
-		align-items: center;
 		text-align: left;
-		grid-gap: 1rem;
+		justify-content: center;
 	}
+
+	.section-b h2 {
+		width: 80vw;
+		font-size: 4rem;
+		margin-bottom: 2rem;
+	}
+	.section-b .features-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		width: 80vw;
+		text-align: left;
+	}
+
 	.section-b p {
 		padding: 0 !important;
-	}
-	.section-b h2 {
-		transform: translateY(100%);
-		font-size: 4rem;
-		grid-column: 1/3;
-	}
-	.section-b div {
-		grid-row-start: 2;
-		height: 300px;
 	}
 	/* Section C */
 	.section-c .container {
