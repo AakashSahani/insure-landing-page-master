@@ -21,7 +21,7 @@
 
 body {
 	font-family: 'Karla', sans-serif;
-	min-width: 100vw;
+	width: 100vw;
 	min-height: 100vh;
 	overflow-x: hidden;
 }
@@ -85,7 +85,6 @@ section {
 }
 
 .intro-text {
-	background: url(../images/bg-pattern-intro-left-mobile.svg) no-repeat;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
