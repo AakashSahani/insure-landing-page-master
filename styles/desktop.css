@@ -95,11 +95,12 @@
 	.container h4 {
 		text-align: left;
 		line-height: 3rem;
-		padding-right: 40%;
+		padding-right: 10%;
 		font-size: 3rem;
 	}
 	.section-c .container a {
 		width: 200px;
+		min-width: 200px;
 	}
 
 	footer {
